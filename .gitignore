@@ -1,14 +1,31 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# IDE - PyCharm
+.idea/
+.idea/**/*
+*.iml
+*.iws
+*.ipr
 
-# Virtual environments
-.venv
-/.env
-/.python-version
-*.db
-.idea
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
